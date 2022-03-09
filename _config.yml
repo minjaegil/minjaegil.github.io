@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "Cerebrum Archive"
 title_separator          : "-"
-subtitle                 : dumping stuff from my head
+subtitle                 : Dumping Knowledge
 name                     : "MINJAE GIL"
 description              : "Student at UIUC"
 url                      : "https://minjaegil.github.io"
