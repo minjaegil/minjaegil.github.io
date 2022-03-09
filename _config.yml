@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "Cerebrum Archive"
 title_separator          : "-"
-subtitle                 : Dumping Knowledge
+subtitle                 : 
 name                     : "MINJAE GIL"
 description              : "Student at UIUC"
 url                      : "https://minjaegil.github.io"
@@ -102,9 +102,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "길민재 MINJAE GIL"
+  name             : "길민재 Minjae Gil"
   avatar           : "/images/profile.png"
-  bio              : "I am a student at UIUC."
+  bio              : "Wish I could dump all my knowledge in a database..."
   location         : "Illinois | Seoul"
   email            : 
   links:
