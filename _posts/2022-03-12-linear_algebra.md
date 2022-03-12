@@ -6,8 +6,9 @@ tag: [matrix, vector, ML]
 toc: true
 toc_sticky: true
 toc_label: "Contents"
+use_math: true
 ---
-
+# Math for ML - Linear Algebra
 This post jots down the key points of Chapter 2 Linear Algebra from [Mathmematics for Machine Learning](https://mml-book.github.io).
 # 1. Matrices
 #### Matrix
@@ -21,6 +22,7 @@ In $R^{n\times n}$, identity matrix ***$I_{n}$*** is a $n \times n$-matrix conta
 $$I_{3} = \begin{bmatrix}1 & 0 & 0\\0 & 1 &0\\0&0&1\end{bmatrix} \in R^{3\times 3}$$
   
 ## 1.1 Matrix Addition and Multiplication
+
 Matrices can only be multiplied if their *neighboring* dimensions match. \
 For instance, a $n\times k$-matrix ***A*** can be multiplied with a $k\times m$-matrix ***B***, but only from the left side. Thus, $BA$ will not defined if $m\neq n$.
 
