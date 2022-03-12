@@ -23,10 +23,16 @@ $$I_{3} = \begin{bmatrix}1 & 0 & 0\\0 & 1 &0\\0&0&1\end{bmatrix} \in R^{3\times 
   
 ### 1.1 Matrix Addition and Multiplication
 Matrices can only be multiplied if their *neighboring* dimensions match. \
-For instance, a $n\times k$-matrix ***A*** can be multiplied with a $k\times m$-matrix ***B***, but only from the left side: 
+For instance, a $n\times k$-matrix ***A*** can be multiplied with a $k\times m$-matrix ***B***, but only from the left side. Thus, $BA$ will not defined if $m\neq n$.
 
- - $AB = C$, where $C$ is a $n\times m$-matrix
- - $BA$ is not defined if $m\neq n$
+#### Propoerties of Matrices
+- Associativity
+
+$$\forall A \in R^{m\times n}, B \in R^{n \times p}, C \in R^{p\times q}: (AB)C=A(BC):  $$
+- Distributivity
+
+$$\forall A,B \in R^{m\times n}, C,D \in R^{n\times p}: (A+B)C=AC + BC$$
+- Multiplication with the identity matrix
 
 
 
