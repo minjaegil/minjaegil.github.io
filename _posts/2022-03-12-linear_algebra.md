@@ -32,18 +32,13 @@ $$I_{3} = \begin{bmatrix}1 & 0 & 0\\0 & 1 &0\\0&0&1\end{bmatrix} \in R^{3\times 
 Matrices can only be multiplied if their *neighboring* dimensions match. \
 For instance, a $n\times k$-matrix ***A*** can be multiplied with a $k\times m$-matrix ***B***, but only from the left side. Thus, $BA$ will not defined if $m\neq n$.
 
-**Associativity**:
+- **Associativity**: &nbsp; &nbsp; $\forall A \in R^{m\times n}, B \in R^{n \times p}, C \in R^{p\times q}: (AB)C=A(BC)$
 
-$$\forall A \in R^{m\times n}, B \in R^{n \times p}, C \in R^{p\times q}: (AB)C=A(BC):$$
+- **Distributivity**: &nbsp; &nbsp; $\forall A,B \in R^{m\times n}, C,D \in R^{n\times p}: (A+B)C=AC + BC$
 
-**Distributivity**:
-
-$$\forall A,B \in R^{m\times n}, C,D \in R^{n\times p}: (A+B)C=AC + BC$$
-
-**Multiplication with the Identity Matrix**:
-
-$$\forall A \in R^{m\times n}: I_{m}A=AI_{n}=A$$
+- **Multiplication with the Identity Matrix**: &nbsp; &nbsp; $\forall A \in R^{m\times n}: I_{m}A=AI_{n}=A$
 
 ## 1.3 Inverse and Transpose
+
 
 
