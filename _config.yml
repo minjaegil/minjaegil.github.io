@@ -106,7 +106,7 @@ author:
   avatar           : "/images/profile.png"
   bio              : "Wish I could dump all my knowledge in a database..."
   location         : "Illinois | Seoul"
-  email            : 
+  email            : "minjaegil@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
