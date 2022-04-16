@@ -8,8 +8,6 @@ toc_sticky: true
 toc_label: "Contents"
 use_math: true
 ---
-# Importing Data
-Some tips when importing data using pandas.
 
 ## Flat Files (CSV)
 
